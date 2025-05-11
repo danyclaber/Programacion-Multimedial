@@ -58,3 +58,17 @@ http://localhost/Proyecto-2
    
 ![Vista previa del proyecto](Proyecto-2/screenshots/vistaPrevia1.png)
 ---
+
+### Proyecto 3: Cálculo de Impuestos sobre Propiedades con Integración PHP y JSP
+---
+Aplicación web que amplía el Sistema de Registro y Consulta de Propiedades, incorporando la funcionalidad de cálculo del tipo de impuesto asociado a cada propiedad registrada.
+Este proyecto reutiliza la base de datos del Proyecto 2 y combina tecnologías mixtas: PHP para la gestión inicial del sistema, y JSP (Java Server Pages) para procesar solicitudes GET al calcular los impuestos.
+
+#### Pasos para ejecutar el proyecto
+
+1. Seguir los pasos del **Proyecto 2** para configurar la base de datos y ejecutar la parte en PHP.
+2. Instalar **NetBeans** (compatible con Java EE).
+3. Agregar **GlassFish 5.0** en NetBeans desde la pestaña **Servicios > Servidores**.
+4. Abrir el proyecto **`impuestoWebAplication`** desde **Archivo > Abrir Proyecto**.
+5. Ejecutar el proyecto desde NetBeans para abrirlo en el navegador.
+
