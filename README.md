@@ -57,6 +57,7 @@ http://localhost/Proyecto-2
    **Nota:** Al registrar un nuevo **Usuario**, su **CI** será automáticamente su nombre de usuario y contraseña.
    
 ![Vista previa del proyecto](Proyecto-2/screenshots/vistaPrevia1.png)
+
 ---
 
 ### Proyecto 3: Cálculo de Impuestos sobre Propiedades con Integración PHP y JSP
@@ -71,4 +72,9 @@ Este proyecto reutiliza la base de datos del Proyecto 2 y combina tecnologías m
 3. Agregar **GlassFish 5.0** en NetBeans desde la pestaña **Servicios > Servidores**.
 4. Abrir el proyecto **`impuestoWebAplication`** desde **Archivo > Abrir Proyecto**.
 5. Ejecutar el proyecto desde NetBeans para abrirlo en el navegador.
+
+| ![Vista previa 1](Proyecto-3/screenshots/vistaPrevia1.png) | ![Vista previa 2](Proyecto-3/screenshots/vistaPrevia2.png) |
+|-----------------------------------------------------------|-----------------------------------------------------------|
+
+
 
