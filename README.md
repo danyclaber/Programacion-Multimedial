@@ -2,6 +2,7 @@
 ## PROYECTOS
 
 ### Proyecto 1: Creación de una Página Web Responsiva con PHP para Trámites
+
 ---
 Desarrollo de una página web sencilla y responsiva utilizando PHP para la gestión y consulta de trámites fiscales, con secciones sobre impuestos, catastro y territorio, y recursos para negocios y comercio relacionados con la gestión fiscal.
 
