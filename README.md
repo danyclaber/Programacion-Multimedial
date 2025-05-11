@@ -17,6 +17,7 @@ http://localhost/Proyecto-1
 ```
 
 ![Vista previa del proyecto](Proyecto-1/screenshots/vistaPrevia1.png)
+
 ---
 
 ### Proyecto 2: Sistema de Registro y Consulta de Propiedades
