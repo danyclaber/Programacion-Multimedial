@@ -78,5 +78,46 @@ Este proyecto reutiliza la base de datos del Proyecto 2 y combina tecnologías m
 | ![Vista previa 1](Proyecto-3/screenshots/vistaPrevia1.png) | ![Vista previa 2](Proyecto-3/screenshots/vistaPrevia2.png) |
 |-----------------------------------------------------------|-----------------------------------------------------------|
 
+### Proyecto 4: Laravel y Flask con MySQL
+---
+Este proyecto incluye dos aplicaciones web que implementan un sistema básico de operaciones CRUD (Crear, Leer, Actualizar y Eliminar), desarrolladas con Laravel (PHP) y Flask (Python), ambas conectadas a una misma base de datos MySQL. Permite gestionar productos, proveedores y categorías, siguiendo el patrón de arquitectura MVC (Modelo-Vista-Controlador) para garantizar una estructura limpia, modular y fácil de mantener.
 
+#### Laravel - Pasos para ejecutar el proyecto
 
+1. Clona el repositorio.
+
+2. Importa la base de datos `bdtienda` desde `Bd_MySQL` usando phpMyAdmin.
+
+3. Abre terminal y entra a la carpeta del proyecto:   `cd ruta/a/tu-proyecto`
+
+4. Instala las dependencias con Composer (descárgalo en https://getcomposer.org/):
+```plaintext
+`composer install`
+```
+
+5. Copia el archivo de configuración:  
+```plaintext
+cp .env.example .env
+```
+
+6. Configura la conexión en `.env`:  
+```plaintext
+DB_CONNECTION=mysql  
+DB_HOST=127.0.0.1  
+DB_PORT=3306  
+DB_DATABASE=bdtienda  
+DB_USERNAME=root  
+DB_PASSWORD=
+
+SESSION_DRIVER=file
+```
+
+7. Genera la clave de la app: 
+```plaintext
+php artisan key:generate
+```
+
+8. Ejecuta el servidor:  
+```plaintext
+php artisan serve
+```
