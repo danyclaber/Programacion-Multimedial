@@ -78,6 +78,7 @@ Este proyecto reutiliza la base de datos del Proyecto 2 y combina tecnologías m
 | ![Vista previa 1](Proyecto-3/screenshots/vistaPrevia1.png) | ![Vista previa 2](Proyecto-3/screenshots/vistaPrevia2.png) |
 |-----------------------------------------------------------|-----------------------------------------------------------|
 
+---
 ### Proyecto 4: Laravel y Flask con MySQL
 ---
 Este proyecto incluye dos aplicaciones web que implementan un sistema básico de operaciones CRUD (Crear, Leer, Actualizar y Eliminar), desarrolladas con Laravel (PHP) y Flask (Python), ambas conectadas a una misma base de datos MySQL. Permite gestionar productos, proveedores y categorías, siguiendo el patrón de arquitectura MVC (Modelo-Vista-Controlador) para garantizar una estructura limpia, modular y fácil de mantener.
@@ -92,7 +93,7 @@ Este proyecto incluye dos aplicaciones web que implementan un sistema básico de
 
 4. Instala las dependencias con Composer (descárgalo en https://getcomposer.org/):
 ```plaintext
-`composer install`
+composer install
 ```
 
 5. Copia el archivo de configuración:  
