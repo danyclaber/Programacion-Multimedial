@@ -122,3 +122,44 @@ php artisan key:generate
 ```plaintext
 php artisan serve
 ```
+
+#### Flask - Pasos para ejecutar el proyecto
+
+1. Clona el repositorio.
+
+2. Importa la base de datos `bdtienda` desde `Bd_MySQL` usando phpMyAdmin.
+
+3. Abre la terminal y entra a la carpeta del proyecto:  `cd ruta/a/tu-proyecto`
+
+4. Crea un entorno virtual para aislar las dependencias:
+```plaintext
+python -m venv venv
+```
+
+5. Activa el entorno virtual:
+- En Windows: 
+```plaintext
+venv\Scripts\activate
+```
+- En Linux/macOS:
+```plaintext
+source venv/bin/activate
+```
+     
+6. Instala las dependencias necesarias:
+```plaintext
+pip install -r requirements.txt
+```
+
+7. Ejecuta el servidor Flask:
+```plaintext
+flask run
+```
+
+
+
+
+
+
+
+
