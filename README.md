@@ -123,6 +123,9 @@ php artisan key:generate
 php artisan serve
 ```
 
+![Vista previa del proyecto](Proyecto-4/screenshots/laravel.png)
+
+
 #### Flask - Pasos para ejecutar el proyecto
 
 1. Clona el repositorio.
@@ -156,7 +159,7 @@ pip install -r requirements.txt
 flask run
 ```
 
-
+![Vista previa del proyecto](Proyecto-4/screenshots/flask.png)
 
 
 
