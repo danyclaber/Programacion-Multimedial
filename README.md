@@ -151,7 +151,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-7. Ejecuta el servidor Flask:
+7. Accede al directorio `app` con `cd app` y ejecuta el servidor Flask con:
 ```plaintext
 flask run
 ```
